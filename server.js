@@ -19,8 +19,24 @@ app.get('/nimc/:nin', (req, res) => {
         '70620879750': {
             NIN: '70620879750',
             name: 'Nkwocha Cornelius N'
+        },
+        '70649988270': {
+            NIN: '70649988270',
+            name: 'Azubuike Prince Chidi'
+        },
+        '70649988270': {
+            NIN: '70649988270',
+            name: 'Okolo Emmanuel'
+        },
+        '70346313980': {
+            NIN: '70346313980',
+            name: 'Bon-Akalazu Nancy'
+        },
+        '81630785360': {
+            NIN: '81630785360',
+            name: 'Mere Divine Kelechi'
         }
-    };
+    }; 
 
     const userDetails = mockUsers[nin] || null;
 
