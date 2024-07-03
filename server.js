@@ -9,22 +9,16 @@ app.get('/nimc/:nin', (req, res) => {
     // Mock response data
     const mockUsers = {
         '81005539620': {
-            NIN: '98765432101',
-            name: 'Nduoma Chinomso',
-            phoneNumber: '2348100553962',
-            balance: 10000,
+            NIN: '81005539620',
+            name: 'Nduoma Chinomso'
         },
         '81283406520': {
-            NIN: '98765432101',
-            name: 'Akwuiwu Chukwuemeka Johnpaul',
-            phoneNumber: '2348128340652',
-            balance: 10000,
+            NIN: '81283406520',
+            name: 'Akwuiwu Chukwuemeka Johnpaul'
         },
         '70620879750': {
-            NIN: '98765432101',
-            name: 'Nkwocha Cornelius N',
-            phoneNumber: '2347062087975',
-            balance: 10000,
+            NIN: '70620879750',
+            name: 'Nkwocha Cornelius N'
         }
     };
 
